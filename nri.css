@@ -9,6 +9,10 @@ body {
     position: relative;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .slider {
     display: flex;
     justify-content: flex-start;
@@ -17,6 +21,7 @@ body {
     width: 100vw;
     height: 80vh;
     overflow: hidden;
+    background-color: red;
 }
 
 .slides {
